@@ -1,0 +1,13 @@
+h1 {
+  font-family: "youngSerif";
+  font-weight: regular;
+}
+h4 {
+  font-size: 1.125rem; /* 18px */
+}
+
+.title-serif {
+  font-family: "youngSerif", serif;
+  font-weight: regular;
+  color: #4b240f;
+}
