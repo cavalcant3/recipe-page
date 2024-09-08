@@ -19,49 +19,85 @@ const Home: React.FC = () => {
           combines beaten eggs cooked to perfection, optionally filled with your
           choice of cheese, vegetables, or meats.
         </p>
+        {/* Seção: Preparation Time */}
+        <div className="bg-pink-50 rounded-lg p-4 mt-6 shadow-inner">
+          <h4 className="text-lg font-semibold text-pink-800 mb-2">
+            Preparation time
+          </h4>
+          <ul className="list-disc pl-5 text-gray-700 space-y-2">
+            <li>
+              <strong>Total:</strong> Approximately 10 minutes
+            </li>
+            <li>
+              <strong>Preparation:</strong> 5 minutes
+            </li>
+            <li>
+              <strong>Cooking:</strong> 5 minutes
+            </li>
+          </ul>
+        </div>
 
         {/* Seção: Ingredients */}
         <div className="mt-6">
-          <h2 className="text-2xl font-bold title-serif text-brown-800 mb-4">Ingredients</h2>
+          <h2 className="text-2xl font-bold title-serif text-brown-800 mb-4">
+            Ingredients
+          </h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
             <li>2-3 large eggs</li>
             <li>Salt, to taste</li>
             <li>Pepper, to taste</li>
             <li>1 tablespoon of butter or oil</li>
-            <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+            <li>
+              Optional fillings: cheese, diced vegetables, cooked meats, herbs
+            </li>
           </ul>
         </div>
 
         {/* Seção: Instructions */}
         <div className="mt-8">
-          <h2 className="text-2xl font-bold title-serif text-brown-800 mb-4">Instructions</h2>
+          <h2 className="text-2xl font-bold title-serif text-brown-800 mb-4">
+            Instructions
+          </h2>
           <ol className="list-decimal pl-5 text-gray-700 space-y-4">
             <li>
-              <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.
+              <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a
+              pinch of salt and pepper until they are well mixed. You can add a
+              tablespoon of water or milk for a fluffier texture.
             </li>
             <li>
-              <strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.
+              <strong>Heat the pan:</strong> Place a non-stick frying pan over
+              medium heat and add butter or oil.
             </li>
             <li>
-              <strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.
+              <strong>Cook the omelette:</strong> Once the butter is melted and
+              bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly
+              coat the surface.
             </li>
             <li>
-              <strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.
+              <strong>Add fillings (optional):</strong> When the eggs begin to
+              set at the edges but are still slightly runny in the middle,
+              sprinkle your chosen fillings over one half of the omelette.
             </li>
             <li>
-              <strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.
+              <strong>Fold and serve:</strong> As the omelette continues to
+              cook, carefully lift one edge and fold it over the fillings. Let
+              it cook for another minute, then slide it onto a plate.
             </li>
             <li>
-              <strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.
+              <strong>Enjoy:</strong> Serve hot, with additional salt and pepper
+              if needed.
             </li>
           </ol>
         </div>
 
         {/* Seção: Nutrition */}
         <div className="bg-white rounded-lg  p-8 mt-6">
-          <h2 className="text-2xl font-bold title-serif text-brown-800 mb-4">Nutrition</h2>
+          <h2 className="text-2xl font-bold title-serif text-brown-800 mb-4">
+            Nutrition
+          </h2>
           <p className="text-gray-600 mb-4">
-            The table below shows nutritional values per serving without the additional fillings.
+            The table below shows nutritional values per serving without the
+            additional fillings.
           </p>
           <table className="w-full text-left table-auto">
             <tbody>
