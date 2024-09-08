@@ -19,9 +19,71 @@ const Home: React.FC = () => {
           combines beaten eggs cooked to perfection, optionally filled with your
           choice of cheese, vegetables, or meats.
         </p>
-        <div>
-        <h4>Preparation time</h4>
-      </div>
+
+        {/* Seção: Ingredients */}
+        <div className="mt-6">
+          <h2 className="text-2xl font-bold title-serif text-brown-800 mb-4">Ingredients</h2>
+          <ul className="list-disc pl-5 text-gray-700 space-y-2">
+            <li>2-3 large eggs</li>
+            <li>Salt, to taste</li>
+            <li>Pepper, to taste</li>
+            <li>1 tablespoon of butter or oil</li>
+            <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+          </ul>
+        </div>
+
+        {/* Seção: Instructions */}
+        <div className="mt-8">
+          <h2 className="text-2xl font-bold title-serif text-brown-800 mb-4">Instructions</h2>
+          <ol className="list-decimal pl-5 text-gray-700 space-y-4">
+            <li>
+              <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.
+            </li>
+            <li>
+              <strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.
+            </li>
+            <li>
+              <strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.
+            </li>
+            <li>
+              <strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.
+            </li>
+            <li>
+              <strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.
+            </li>
+            <li>
+              <strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.
+            </li>
+          </ol>
+        </div>
+
+        {/* Seção: Nutrition */}
+        <div className="bg-white rounded-lg  p-8 mt-6">
+          <h2 className="text-2xl font-bold title-serif text-brown-800 mb-4">Nutrition</h2>
+          <p className="text-gray-600 mb-4">
+            The table below shows nutritional values per serving without the additional fillings.
+          </p>
+          <table className="w-full text-left table-auto">
+            <tbody>
+              <tr className="border-t border-gray-300">
+                <td className="py-2">Calories</td>
+                <td className="py-2 font-bold text-brown-800">277kcal</td>
+              </tr>
+              <tr className="border-t border-gray-300">
+                <td className="py-2">Carbs</td>
+                <td className="py-2 font-bold text-brown-800">0g</td>
+              </tr>
+              <tr className="border-t border-gray-300">
+                <td className="py-2">Protein</td>
+                <td className="py-2 font-bold text-brown-800">20g</td>
+              </tr>
+              <tr className="border-t border-gray-300">
+                <td className="py-2">Fat</td>
+                <td className="py-2 font-bold text-brown-800">22g</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );
